@@ -13,8 +13,8 @@ const Header = () => {
 
 const Wrapper = () => {
   const tabs = [
-    ["Tab One", "Tab One Content"],
-    ["Tab Two", "Tab Two Content"]
+    ["Yellowstone", "One of the most beautiful national parks in the world!"],
+    ["Zion National Park", "A Utah National Park with wonderful red rocks!"]
   ];
 
   const [state, setState] = useState(tabs[0]);
